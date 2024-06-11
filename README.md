@@ -1,6 +1,6 @@
 # Quadcopter Embedded Firmware
 
-This repository contains the embedded firmware code developed for the Electronic Speed Controller (ESC), Flight Controller, and Sensorless ESC of a quadcopter. This project was undertaken from July 2021 to June 2022 as my diploma final year project. The firmware includes code for controlling the ESC, flight controller, and an improved sensorless ESC developed post-graduation.
+This repository contains the embedded firmware code developed for the Electronic Speed Controller (ESC), Flight Controller, and Sensorless ESC of a quadcopter. This project was undertaken from July 2021 to June 2022 as my diploma final year project. The firmware includes code for controlling the ESC, flight controller, and an improved sensorless ESC developed post-diploma completion. I took this project to build my development skills as it possessed real-time firmware challenges. The experience taught me various multidisciplinary skills because it required me to understand circuit design, interfacing and the physics of a drone too. It made me realize the importance of quality, reliabily and rigurous testing in product and firmware development as any failure would have lead the drone to crash and potentialy harm people standing in close vicinity.
 
 ## Disclaimer
 
@@ -15,7 +15,7 @@ As I upload this project to GitHub along with my other older projects, it's impo
 
 ## ESC (Electronic Speed Controller)
 
-This section contains the code for the Electronic Speed Controller (ESC) used in the quadcopter. The ESC code manages the motor speed and power delivery. It includes functions for initializing PWM, enabling and disabling the PWM clock, controlling the stator timer, and managing the high and low sides of the ESC.
+This section contains the code for the Electronic Speed Controller (ESC) used in the quadcopter. The ESC code controls in real time the switching of power mosfets for motor speed and power delivery. It recieves the speeed requirements from the Flight controller over UART and generates actuation signals accordingly. It includes functions for initializing PWM, enabling and disabling the PWM clock, controlling the stator timer, and managing the high and low sides of the ESC.
 
 ### Methods
 
@@ -38,7 +38,7 @@ This section contains the code for the Electronic Speed Controller (ESC) used in
 
 ## Flight Controller
 
-This section contains the code for the flight controller, which is responsible for stabilizing the quadcopter and executing control algorithms. The flight controller code includes functions for initializing and reading data from the MPU (Motion Processing Unit), managing timers, handling virtual UART communication, and executing PID control algorithms.
+This section contains the code for the flight controller, which is responsible for stabilizing the quadcopter and executing control algorithms. The flight controller code includes functions for initializing and reading data from the MPU (Motion Processing Unit), managing timers, handling virtual UART communication, and executing PID control algorithms. The flight controller sends control signals to the ESC over UART and communicates to the MPU over I2C.
 
 ### Methods
 
