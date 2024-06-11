@@ -2,6 +2,10 @@
 
 This repository contains the embedded firmware code developed for the Electronic Speed Controller (ESC), Flight Controller, and Sensorless ESC of a quadcopter. This project was undertaken from July 2021 to June 2022 as my diploma final year project. The firmware includes code for controlling the ESC, flight controller, and an improved sensorless ESC developed post-graduation.
 
+## Disclaimer
+
+As I upload this project to GitHub along with my other older projects, it's important to note that I am presenting it in its original form, without modifications. Therefore, the concepts and coding style reflect my skills and knowledge as of 2021-22, rather than my current capabilities. Please overlook any technical or logical errors in the project.
+
 ## Sections
 
 - [ESC (Electronic Speed Controller)](#esc-electronic-speed-controller)
@@ -79,10 +83,6 @@ This section contains the code for the flight controller, which is responsible f
 ## Sensorless ESC
 
 This section contains the code for a sensorless ESC developed after completing my diploma, before starting my second year of engineering. This ESC is an improvement over the previously developed open-loop ESC, providing faster acceleration, reduced vibrations, and noise. It operates on a closed-loop feedback system that detects rotor position using sensorless back EMF zero-crossing detection feedback principle.
-
-## Disclaimer
-
-As I upload this project to GitHub along with my other older projects, it's important to note that I am presenting it in its original form, without modifications. Therefore, the concepts and coding style reflect my skills and knowledge as of 2021-22, rather than my current capabilities. Please overlook any technical or logical errors in the project.
 
 ---
 
