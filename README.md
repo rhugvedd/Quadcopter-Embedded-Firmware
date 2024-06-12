@@ -87,6 +87,7 @@ This section contains the code for a sensorless ESC developed after completing m
 ## Circuit Design
 
 This project also included the complete circuit design, design calculations, power dissipation considerations, thermal considerations (including Schematic and PCB Layout) of the Electronic Speed Controller, Flight Controller, and BMS of a Quadcopter. During the course of this project I also had to study and understand the Quadcopter flight dynamics which made me realise that a good developer, aspiring to be an entrepreneur should have expertise in 1-2 fields but at the same time an understanding of related multiple domains too, to be able to develop something which actually solves multiple user pain points.
+
 ---
 ### The image of the Quadcopter
 ![Quadcopter](./Images/Quadcopter.jpg)
