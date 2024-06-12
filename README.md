@@ -87,33 +87,34 @@ This section contains the code for a sensorless ESC developed after completing m
 ## Circuit Design
 
 This project also included the complete circuit design, design calculations, power dissipation considerations, thermal considerations (including Schematic and PCB Layout) of the Electronic Speed Controller, Flight Controller, and BMS of a Quadcopter. During the course of this project I also had to study and understand the Quadcopter flight dynamics which made me realise that a good developer, aspiring to be an entrepreneur should have expertise in 1-2 fields but at the same time an understanding of related multiple domains too, to be able to develop something which actually solves multiple user pain points.
-
+---
 ### The image of the Quadcopter
 ![Quadcopter](./Images/Quadcopter.jpg)
-
+---
 ### Electronic Speed Controller
 ![ESC](./Images/ESC.jpg)
-
+---
 ### ESC PCB
 ![ESC_PCB](./Images/ESC_PCB.jpg)
-
-### Flight Controller.
+---
+### Flight Controller
 ![FC](./Images/FC.jpg)
-
+---
 ### FC PCB
 ![FC_PCB](./Images/FC_PCB.jpg)
-
+---
 ### ESC - Initialization Workflow
 ![ESC_Initialization_Workflow](./Images/ESC_Initialization_Workflow.jpg)
-
+---
 ### ESC - Main Loop Workflow
 ![ESC_Main_Loop_Workflow](./Images/ESC_Main_Loop_Workflow.jpg)
-
+---
 ### FC - Initialization Workflow
 ![FC_Initialization_Workflow](./Images/FC_Initialization_Workflow.jpg)
-
+---
 ### FC - Main Loop Workflow
 ![FC_Main_Loop_WorkFlow](./Images/FC_Main_Loop_WorkFlow.jpg)
+
 ---
 
 Feel free to reach out if you have any questions or need further clarification on any part of the code. Thank you for checking out my project!
